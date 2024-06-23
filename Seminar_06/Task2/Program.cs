@@ -9,23 +9,31 @@ void Main()
 {
 System.Console.Write("Введите строку: ");
 string? str = Console.ReadLine();
-char[] chars = StringToCharArray(str);
-PrintArray(chars);
-}
-
-void PrintArray(char[] chars)
+string[] chars = str!.Split(); 
+foreach(string e in chars)
 {
-Console.WriteLine("[" + string.Join(", ", chars) + "]");
+    System.Console.WriteLine("[" + string.Join(", ", e) + "]");
 }
+//string[] tmpArr = strArr.Reverse();
+//System.Console.WriteLine(string.Join(", ", tmpArr));
 
-char[] StringToCharArray(string? inputString)
-{
-char[] chars = new char[inputString!.Length];
+//char[] chars = StringToCharArray(str);
+// PrintArray(chars);
+// }
 
-for (int i = 0; i < chars.Length; i++)
-chars[i] = inputString[i];
+// void PrintArray(char[] chars)
+// {
+// Console.WriteLine("[" + string.Join(", ", chars) + "]");
+// }
 
-return chars;
+// char[] StringToCharArray(string? inputString)
+// {
+// char[] chars = new char[inputString!.Length];
+
+// for (int i = 0; i < chars.Length; i++)
+// chars[i] = inputString[i];
+
+// return chars;
 }
 
 Main();

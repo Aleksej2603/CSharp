@@ -4,10 +4,10 @@
 // Пример
 // [‘a’, ‘b’, ‘c’, ‘d’] => “abcd”
 
-char[] letters = { 'a', 'b', 'c', 'd' };
+char[,] letters = new char[,]{{'a', 'b', 'c'},{'d', 'e', 'f'}};
 
-// 1-й способ:
-// string str = new string(chars);
+//1-й способ:
+//string str = new string(letters[,]);
 
 // 2-й способ:
 // string str = "";
@@ -20,4 +20,4 @@ char[] letters = { 'a', 'b', 'c', 'd' };
 // 4-й способ:
 string str = string.Concat(letters);
 
-System.Console.WriteLine(str);
+System.Console.WriteLine("[" + str + "]");
