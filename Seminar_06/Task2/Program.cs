@@ -17,23 +17,23 @@ foreach(string e in chars)
 //string[] tmpArr = strArr.Reverse();
 //System.Console.WriteLine(string.Join(", ", tmpArr));
 
-//char[] chars = StringToCharArray(str);
-// PrintArray(chars);
-// }
+char[] chars = StringToCharArray(str);
+PrintArray(chars);
+}
 
-// void PrintArray(char[] chars)
-// {
-// Console.WriteLine("[" + string.Join(", ", chars) + "]");
-// }
+void PrintArray(char[] chars)
+{
+Console.WriteLine("[" + string.Join(", ", chars) + "]");
+ }
 
-// char[] StringToCharArray(string? inputString)
-// {
-// char[] chars = new char[inputString!.Length];
+char[] StringToCharArray(string? inputString)
+{
+char[] chars = new char[inputString!.Length];
 
-// for (int i = 0; i < chars.Length; i++)
-// chars[i] = inputString[i];
+for (int i = 0; i < chars.Length; i++)
+chars[i] = inputString[i];
 
-// return chars;
+return chars;
 }
 
 Main();
