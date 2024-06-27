@@ -1,0 +1,14 @@
+E:\study\01_CSharp\Seminar_02\Task2\obj\Debug\net8.0\Task2.GeneratedMSBuildEditorConfig.editorconfig
+E:\study\01_CSharp\Seminar_02\Task2\obj\Debug\net8.0\Task2.AssemblyInfoInputs.cache
+E:\study\01_CSharp\Seminar_02\Task2\obj\Debug\net8.0\Task2.AssemblyInfo.cs
+E:\study\01_CSharp\Seminar_02\Task2\obj\Debug\net8.0\Task2.csproj.CoreCompileInputs.cache
+E:\study\01_CSharp\Seminar_02\Task2\bin\Debug\net8.0\Task2.exe
+E:\study\01_CSharp\Seminar_02\Task2\bin\Debug\net8.0\Task2.deps.json
+E:\study\01_CSharp\Seminar_02\Task2\bin\Debug\net8.0\Task2.runtimeconfig.json
+E:\study\01_CSharp\Seminar_02\Task2\bin\Debug\net8.0\Task2.dll
+E:\study\01_CSharp\Seminar_02\Task2\bin\Debug\net8.0\Task2.pdb
+E:\study\01_CSharp\Seminar_02\Task2\obj\Debug\net8.0\Task2.dll
+E:\study\01_CSharp\Seminar_02\Task2\obj\Debug\net8.0\refint\Task2.dll
+E:\study\01_CSharp\Seminar_02\Task2\obj\Debug\net8.0\Task2.pdb
+E:\study\01_CSharp\Seminar_02\Task2\obj\Debug\net8.0\Task2.genruntimeconfig.cache
+E:\study\01_CSharp\Seminar_02\Task2\obj\Debug\net8.0\ref\Task2.dll
